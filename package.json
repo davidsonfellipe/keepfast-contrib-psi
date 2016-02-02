@@ -1,0 +1,22 @@
+{
+  "name": "keepfast-contrib-psi",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/keepfast/keepfast-contrib-psi.git"
+  },
+  "keywords": [
+    "keepfast"
+  ],
+  "author": "Davidson Fellipe <davidsonfellipe@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/keepfast/keepfast-contrib-psi/issues"
+  },
+  "homepage": "https://github.com/keepfast/keepfast-contrib-psi#readme"
+}
