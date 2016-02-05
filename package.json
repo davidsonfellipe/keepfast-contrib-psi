@@ -1,6 +1,6 @@
 {
   "name": "keepfast-contrib-psi",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "",
   "main": "index.js",
   "scripts": {
@@ -18,5 +18,8 @@
   "bugs": {
     "url": "https://github.com/keepfast/keepfast-contrib-psi/issues"
   },
-  "homepage": "https://github.com/keepfast/keepfast-contrib-psi#readme"
+  "homepage": "https://github.com/keepfast/keepfast-contrib-psi#readme",
+  "dependencies": {
+    "psi": "^2.0.2"
+  }
 }
