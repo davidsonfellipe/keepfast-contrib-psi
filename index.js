@@ -20,7 +20,7 @@ exports.output = function(url) {
           strategy: 'mobile'
         })
         .then(function (data) {
-          return data;
+          return data.ruleGroups.SPEED;
         }
       );
     });
