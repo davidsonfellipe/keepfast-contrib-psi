@@ -17,10 +17,14 @@ exports.output = function(url) {
       return psi(url,
         {
           nokey: 'true',
-          strategy: 'mobile'
+          strategy: 'desktop'
         })
         .then(function (data) {
-          return data.ruleGroups.SPEED;
+          return {
+            'url': url,
+            'plugin': reference.plugin,
+            'sensors': data.ruleGroups.SPEED
+          };
         }
       );
     });
