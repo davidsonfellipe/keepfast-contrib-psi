@@ -7,14 +7,16 @@ module.exports = {
       'criteria': [{
         'plataform': 'desktop',
         'expected': '90',
-        'condition': '<',
-        'result': true
+        'condition': '>',
+        'result': true,
+        'unit': ''
       },
       {
         'plataform': 'mobile',
         'expected': '95',
-        'condition': '<',
-        'result': true
+        'condition': '>',
+        'result': true,
+        'unit': ''
       }]
     }
   }
