@@ -3,8 +3,19 @@ module.exports = {
   'sensors': {
     'score': {
       'label': 'PageSpeed Score',
-      'desktop': 90,
-      'mobile': 95
+      'label': 'Page load time',
+      'criteria': [{
+        'plataform': 'desktop',
+        'expected': '90',
+        'condition': '<',
+        'result': true
+      },
+      {
+        'plataform': 'mobile',
+        'expected': '95',
+        'condition': '<',
+        'result': true
+      }]
     }
   }
 };
