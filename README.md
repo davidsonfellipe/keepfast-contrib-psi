@@ -11,3 +11,8 @@ Plugin for Keepfast support PageSpeed
 ```
 $ npm i keepfast-contrib-psi --save
 ```
+
+
+## License 📖
+
+Code is under [MIT](http://davidsonfellipe.mit-license.org) license
