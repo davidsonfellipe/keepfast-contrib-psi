@@ -4,14 +4,14 @@ module.exports = {
     'score': {
       'label': 'PageSpeed Score',
       'criteria': [{
-        'plataform': 'desktop',
+        'platform': 'desktop',
         'expected': '90',
         'condition': '>',
         'result': true,
         'unit': ''
       },
       {
-        'plataform': 'mobile',
+        'platform': 'mobile',
         'expected': '95',
         'condition': '>',
         'result': true,
